@@ -1,1 +1,34 @@
+ShooterGame - Shooter in care timpul este alterat
 
+Alterarea timpului:
+- la fiecare 20 de secunde se genereaza aleator o noua viteza a jocului intre niste limite apropiate de 1
+- viteza jocului este afisata, alertand jucatorul printr-o modificare a textului
+
+Caracteristici:
+- implementare: Unity 2020.1.1f1
+- platforma: Windows (64 bit)
+
+Fizica:
+- mesh collider pentru toate componentele mediului
+- gravitatie pentru jucatorul first-person, influentand coborarea pantelor, caderea de pe obiecte, saritura
+- coliziuni avansate cu collidere capsula si cu functionalitatile Rigidbody, Raycast si RaycastHit din Unity
+- animatii
+- alterarea timpului se reflecta asupra obiectelor jocului
+
+Grafica:
+- anti-aliasing cu MSAA
+- adaugare elemente de interfata (scor, viata, crosshair, timp, alterarea timpului, minimap) deasupra obiectelor jocului
+- minimap cu proiectie ortografica
+- surse de lumina punctiforme, reflexii, umbre, texturi
+
+Inteligenta artificiala:
+- deplasarea adversarilor cu A* :
+	- construirea automata a grafului mediului bazata pe geometria obiectelor
+	- rularea algoritmului A* pentru fiecare adversar
+
+In plus...
+- bullet tracer
+- shoot sound
+- hit from enemy sound
+- respawn
+- meniu final exit
