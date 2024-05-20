@@ -1,12 +1,12 @@
 ShooterGame - Shooter in care timpul este alterat
 
 Alterarea timpului:
-- la fiecare 20 de secunde se genereaza aleator o noua viteza a jocului intre niste limite apropiate de 1
+- la fiecare 10 secunde se genereaza aleator o noua viteza a jocului intre niste limite apropiate de 1
 - viteza jocului este afisata, alertand jucatorul printr-o modificare a textului
 
 Caracteristici:
 - implementare: Unity 2020.1.1f1
-- platforma: Windows (64 bit)
+- platforma: Windows (64 bit) (cu componentele potrivite de Unity se poate construi si pentru alte platforme)
 
 Fizica:
 - mesh collider pentru toate componentele mediului
